@@ -44,3 +44,7 @@ function exerciseDog(dogName, dogBreed) {
    }
   return arrayOfDogs;
 }
+
+function exerciseDog(name, breed) {
+    return routine.map(f => f(name, breed))
+}
