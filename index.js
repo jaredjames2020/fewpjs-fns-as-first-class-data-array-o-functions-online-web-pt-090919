@@ -34,7 +34,6 @@ function unleashDog(dogName, dogBreed) {
   return unleashDog;
 }
 
-
 const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
 
 function exerciseDog(dogName, dogBreed) {
