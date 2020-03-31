@@ -47,5 +47,5 @@ function exerciseDog(dogName, dogBreed) {
 }
 
 function exerciseDog(dogName, dogBreed) {
-    return routine.map(func => func(dogName, dogBreed))
+    return routine.map(func => func(dogName, dogBreed));
 }
